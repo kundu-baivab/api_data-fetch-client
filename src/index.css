@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Table style */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+table {
+  margin: 5rem auto;
+  border-radius: 2rem;
+  border: 1rem hidden #443C68;
+  border-collapse: collapse;
+  box-shadow: 0 0 0 1px black;
+  overflow: hidden;
+  max-width: 80rem;
+}
+
+li, p, a, td{
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+thead {
+  font-size: 1.8rem;
+  background-color: #443C68;
+  color: #fff;
+}
+
+th,
+td {
+  border: 1px solid #443C68;
+  min-width: 30rem;
+  padding: 1.5rem;
+  line-height: 1.7;
+}
+
+td {
+  font-size: 1.4rem;
+}
+
+
+/* Header style */
+
+.cover-container{
+  max-width: auto;
+}
+.nav-link{
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255,255,255,0.5);
+  margin-left: 1rem;
+  border-bottom: 0.25rem solid transparent;
+}
+.nav-link:hover{
+  color: rgba(255,255,255,0.5);
+  border-bottom-color: rgba(255,255,255,0.5);
+}
+.nav-link.active{
+  color: white;
+  border-bottom-color: white;
+}
+.btn-secondary,.btn-secondary:hover{
+  color: #333;
+  text-shadow: none;
+}
