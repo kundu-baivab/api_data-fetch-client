@@ -8,7 +8,7 @@ const Table = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:8005/getAllUser?page=${currentPage}&limit=${10}`, {
+    fetch(`https://api-data-fetch.onrender.com/getAllUser?page=${currentPage}&limit=${10}`, {
       method: "GET",
     })
       .then((res) => res.json())
