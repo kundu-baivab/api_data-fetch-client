@@ -6,7 +6,7 @@ const City = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:8005/getTopUsers", {
+    fetch("https://api-data-fetch.onrender.com/getTopUsers", {
       method: "GET",
     })
       .then((res) => res.json())
